@@ -101,7 +101,7 @@ class LifeBoard:
                 s -= live             
                 ##print(d)
                 ##print(i, j, s, live)
-                if s == 0:
+                if s == 3:
                     # Birth
                     d.add((i,j))
                 elif s == 2 and live: 
